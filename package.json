@@ -4,7 +4,8 @@
   "description": "gulp zadanko",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "gulp",
+    "sync": "gulp browserSync"
   },
   "author": "Jakub Maksimowicz",
   "license": "MIT",
@@ -21,6 +22,7 @@
     "gulp-browserify": "^0.5.1",
     "gulp-clean-css": "^3.9.0",
     "gulp-concat": "^2.6.1",
+    "gulp-cssmin": "^0.2.0",
     "gulp-eslint": "^4.0.0",
     "gulp-htmlmin": "^3.0.0",
     "gulp-load-plugins": "^1.5.0",
@@ -28,6 +30,7 @@
     "gulp-rename": "^1.2.2",
     "gulp-rev": "^8.1.0",
     "gulp-sass": "^3.1.0",
+    "gulp-tap": "^1.0.1",
     "gulp-uglify": "^3.0.0",
     "gulp-watch": "^4.3.11",
     "pug": "^2.0.0-rc.4",
