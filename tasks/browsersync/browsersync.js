@@ -5,9 +5,9 @@ module.exports = function(gulp, plugins) {
     return function() {
         browserSync.init({
             server: {
-                baseDir: "./dist"
+                baseDir: "./dest"
             }
         })
-        gulp.watch("./dist/**/*").on('change', browserSync.reload);
+        gulp.watch("./dest/**/*").on('change', browserSync.reload);
     };
 };
