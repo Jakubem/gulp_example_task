@@ -1,9 +1,7 @@
-## Setup guide
-------------
-1. Run gulp. It will create dist folder
-2. Run gulp browserSync
+### Setup guide
+- Run `npm run dev`. It will create dist folder
+- Run `npm run sync` to start dev server
 
-## Directory structure
-------------
-* `src` - Uncompiled scss, pug and JS
-* `tasks` - Gulp tasks and paths
+### Directory structure
+- `src` Uncompiled scss, pug and JS
+- `tasks` Gulp tasks and paths
