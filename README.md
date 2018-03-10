@@ -1,3 +1,5 @@
+### Complete dev setup with Gulp, Sass, Pug, Babel and more
+
 ### Setup guide
 - Run `npm run dev`. It will create dist folder
 - Run `npm run sync` to start dev server
